@@ -12,7 +12,7 @@ void sigint_handler(int signum);
 
 enum Direction dir = LTR;
 int repeat_num = 1;
-int dir_changed = 0; // only true just after LTR -> RTL change
+int dir_changed = 0; // only true just after RTL -> LTR change
 int repeat_num_change_sign = 1; // is repeat_num increasing or decreasing
 int max_repeat_num;
 
